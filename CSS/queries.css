@@ -1,0 +1,584 @@
+@media (max-width: 1482px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 1350px) {
+  .nav-text-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-text-content {
+    padding: 3rem 6rem 3rem 6rem;
+    background-color: #d2e9ff;
+    border-radius: 50px;
+    max-width: 90rem;
+  }
+
+  .cards {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 6rem;
+  }
+
+  .card-container {
+    max-width: 90rem;
+  }
+
+  .gallery-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 2.8rem;
+    column-gap: 2.8rem;
+    max-width: 90rem;
+  }
+
+  .gallery-img {
+    width: 100%;
+    height: 50rem;
+    border-radius: 15px;
+    transition: all 0.6s;
+  }
+
+  .gallery-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .gallery-title {
+    font-size: 3rem;
+    padding-bottom: 6rem;
+    padding-left: 25rem;
+    align-self: flex-start;
+  }
+
+  .product-market {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 6rem;
+    column-gap: 8rem;
+  }
+
+  .product-card {
+    width: 41rem;
+    padding: 3rem;
+    background-color: #e1f0ff;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .product-title {
+    font-size: 3rem;
+    margin-bottom: 6rem;
+    align-self: start;
+    padding-left: 25rem;
+  }
+
+  .footer-end-container {
+    background-color: #d2e9ff;
+    padding: 5rem 0 5rem 5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 4rem;
+  }
+}
+
+@media (max-width: 1235px) {
+  html {
+    font-size: 40%;
+  }
+
+  .logo-text {
+    font-size: 2.5rem;
+  }
+
+  .logo {
+    width: 5.5rem;
+    height: 5.5rem;
+  }
+
+  .nav-item:link,
+  .nav-item:visited {
+    font-size: 2.2rem;
+  }
+
+  .nav-text-title {
+    font-size: 3.7rem;
+  }
+
+  .nav-text-info {
+    font-size: 2.3rem;
+  }
+
+  .about-title {
+    font-size: 2.7rem;
+  }
+
+  .about-text {
+    font-size: 2.3rem;
+  }
+
+  .about-num {
+    font-size: 5.7rem;
+  }
+
+  .gallery-title {
+    font-size: 3.8rem;
+  }
+
+  .product-title {
+    font-size: 3.7rem;
+  }
+
+  .gallery-img {
+    width: 100%;
+    height: 45rem;
+  }
+
+  .product-features {
+    font-size: 2.3rem;
+  }
+
+  .features-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .features-icon-positive {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .features-icon-negative {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .product-name {
+    font-size: 2.3rem;
+  }
+
+  .features-list {
+    display: flex;
+    row-gap: 2rem;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .product-card {
+    width: 50rem;
+    padding: 3rem;
+  }
+
+  .product-card img {
+    height: 44rem;
+  }
+
+  .product-card:first-child::before {
+    font-size: 2.5rem;
+  }
+
+  .market-top-text {
+    font-size: 3rem;
+  }
+
+  .form-container {
+    font-size: 2rem;
+  }
+
+  #name-surname,
+  #phone-number,
+  #mail,
+  #date,
+  #declaration-detail {
+    height: 7rem;
+  }
+
+  .form-submit {
+    font-size: 2rem;
+    width: 13rem;
+    height: 5rem;
+  }
+
+  .form-radio-items {
+    max-width: 40rem;
+    height: 4.5rem;
+  }
+
+  .footer-item-title {
+    font-size: 2.8rem;
+  }
+
+  .footer-item {
+    font-size: 2rem;
+  }
+
+  .footer-end-text {
+    font-size: 2rem;
+  }
+
+  .social-item {
+    font-size: 2rem;
+  }
+
+  .social-icon {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .footer-copy-text {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 950px) {
+  html {
+    font-size: 30%;
+  }
+
+  .logo-text {
+    font-size: 3rem;
+  }
+
+  .logo {
+    width: 6.6rem;
+    height: 6.6rem;
+  }
+
+  .nav-item:link,
+  .nav-item:visited {
+    font-size: 2.7rem;
+  }
+
+  .nav-text-title {
+    font-size: 4.2rem;
+  }
+
+  .nav-text-info {
+    font-size: 2.8rem;
+  }
+
+  .nav-text-content {
+    padding: 6rem 8rem 8rem 8rem;
+  }
+
+  .nav-img img {
+    width: 80rem;
+    height: 50rem;
+    border-radius: 15px;
+  }
+
+  .about-title {
+    font-size: 3.3rem;
+  }
+
+  .about-text {
+    font-size: 2.8rem;
+  }
+
+  .about-num {
+    font-size: 6.2rem;
+  }
+
+  .gallery-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .gallery-img {
+    width: 100%;
+    height: 60rem;
+  }
+
+  .product-title {
+    font-size: 4.2rem;
+  }
+
+  .product-features {
+    font-size: 2.8rem;
+  }
+
+  .features-icon {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .features-icon-positive {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .features-icon-negative {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .product-name {
+    font-size: 2.8rem;
+  }
+
+  .features-list {
+    display: flex;
+    row-gap: 2rem;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .product-card {
+    width: 55rem;
+    padding: 3rem;
+  }
+
+  .product-card img {
+    height: 48rem;
+  }
+
+  .product-card:first-child::before {
+    font-size: 2.5rem;
+  }
+
+  .market-top-text {
+    font-size: 3.5rem;
+  }
+
+  .form-item-container-radio {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10rem;
+  }
+
+  .form-container {
+    font-size: 2rem;
+    padding: 0;
+  }
+
+  .form-submit {
+    font-size: 2.5rem;
+    width: 18rem;
+    height: 7rem;
+  }
+
+  .form-radio-items {
+    max-width: 40rem;
+    height: 4.5rem;
+  }
+
+  #name-surname,
+  #phone-number,
+  #mail,
+  #date,
+  #declaration-detail {
+    height: 9rem;
+    font-size: 2.2rem;
+  }
+
+  .footer-item-title {
+    font-size: 3.3rem;
+  }
+
+  .footer-item {
+    font-size: 2.5rem;
+  }
+
+  .footer-end-text {
+    font-size: 2.5rem;
+  }
+
+  .social-item {
+    font-size: 2.5rem;
+  }
+
+  .social-icon {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+
+  .footer-copy-text {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 700px) {
+  html {
+    font-size: 20%;
+  }
+
+  .gallery-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    flex-direction: column;
+    row-gap: 8rem;
+  }
+
+  .gallery-img {
+    width: 80rem;
+    height: 110rem;
+  }
+
+  .product-market {
+    display: grid;
+    grid-template-columns: 1fr;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    row-gap: 8rem;
+  }
+
+  .product-card {
+    width: 85rem;
+    padding: 3rem;
+  }
+
+  .product-card img {
+    height: 80rem;
+  }
+
+  .form-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    flex-direction: column;
+    font-size: 2rem;
+    padding: 0;
+  }
+
+  .nav-container nav {
+    display: none;
+  }
+
+  .logo-text {
+    font-size: 4rem;
+  }
+
+  .logo {
+    width: 8.8rem;
+    height: 8.8rem;
+  }
+
+  .nav-text-title {
+    font-size: 5.2rem;
+  }
+
+  .nav-text-info {
+    font-size: 3.8rem;
+  }
+
+  .about-title {
+    font-size: 4.3rem;
+  }
+
+  .about-text {
+    font-size: 3.8rem;
+  }
+
+  .about-num {
+    font-size: 7.2rem;
+  }
+
+  .gallery-title {
+    font-size: 4.3rem;
+  }
+
+  .product-title {
+    font-size: 5.2rem;
+  }
+
+  .product-features {
+    font-size: 3.8rem;
+  }
+  .features-icon {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .features-icon-positive {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .features-icon-negative {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .product-name {
+    font-size: 3.8rem;
+  }
+
+  .market-top-text {
+    font-size: 4.5rem;
+  }
+
+  .form-container {
+    font-size: 3rem;
+    padding: 0;
+  }
+
+  #name-surname,
+  #phone-number,
+  #mail,
+  #date,
+  #declaration-detail {
+    height: 9rem;
+    max-width: 55rem;
+    font-size: 3.2rem;
+  }
+
+  .form-item-container-radio {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 10rem;
+  }
+
+  .form-submit {
+    font-size: 3.5rem;
+    width: 22rem;
+    height: 11rem;
+  }
+
+  .footer-item-title {
+    font-size: 4.3rem;
+  }
+
+  .footer-item {
+    font-size: 3.5rem;
+  }
+
+  .footer-end-text {
+    font-size: 3.5rem;
+  }
+
+  .social-item {
+    font-size: 3.5rem;
+  }
+
+  .social-icon {
+    height: 3.5rem;
+    width: 3.5rem;
+  }
+
+  .footer-copy-text {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 10%;
+  }
+}
