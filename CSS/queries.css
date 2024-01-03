@@ -501,6 +501,7 @@
   .product-features {
     font-size: 3.8rem;
   }
+
   .features-icon {
     width: 4rem;
     height: 4rem;
@@ -579,6 +580,152 @@
 
 @media (max-width: 500px) {
   html {
-    font-size: 10%;
+    font-size: 12%;
+  }
+
+  .logo-text {
+    font-size: 8rem;
+  }
+
+  .logo {
+    width: 17rem;
+    height: 17rem;
+  }
+  .nav-text-content {
+    padding: 12rem;
+    width: 100%;
+  }
+
+  .about-title {
+    font-size: 6rem;
+  }
+
+  .about-text {
+    font-size: 6rem;
+  }
+
+  .about-num {
+    font-size: 12rem;
+  }
+
+  .gallery-title {
+    font-size: 7.3rem;
+  }
+
+  .gallery-img {
+    max-width: 100%;
+  }
+
+  .product-title {
+    font-size: 8.2rem;
+  }
+
+  .market-top-text {
+    font-size: 7.5rem;
+  }
+
+  .product-features {
+    font-size: 5.8rem;
+  }
+
+  .features-icon {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .features-icon-positive {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .features-icon-negative {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .product-name {
+    font-size: 5.8rem;
+  }
+
+  .product-card {
+    width: 100%;
+    padding: 8rem;
+  }
+
+  .form-container {
+    font-size: 5rem;
+    padding: 0;
+  }
+
+  .form-submit {
+    font-size: 4.5rem;
+    width: 27rem;
+    height: 16rem;
+  }
+
+  .footer-content-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 14rem;
+  }
+
+  .footer-end-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    flex-direction: column;
+    row-gap: 12rem;
+  }
+
+  .footer-end-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-direction: column;
+    row-gap: 4rem;
+  }
+  .footer-social-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-direction: column;
+    row-gap: 4rem;
+  }
+
+  .footer-copy-text,
+  .footer-end-text,
+  .social-item {
+    justify-self: center;
+    align-self: center;
+  }
+
+  .footer-item-title {
+    font-size: 6.3rem;
+  }
+
+  .footer-item {
+    font-size: 5.5rem;
+  }
+
+  .footer-end-text {
+    font-size: 5.5rem;
+  }
+
+  .social-item {
+    font-size: 5.5rem;
+  }
+
+  .social-icon {
+    height: 5.5rem;
+    width: 5.5rem;
+  }
+
+  .footer-copy-text {
+    font-size: 5.5rem;
   }
 }
